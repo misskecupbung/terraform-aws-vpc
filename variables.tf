@@ -8,7 +8,7 @@ variable "account_id" {
 }
 
 variable "aws_region" {
-  description = "Agency code specific by the organisation."
+  description = "Specific location for the resources. Default ap-southeast-1"
   type        = string
   default     = "ap-southeast-1"
 }
