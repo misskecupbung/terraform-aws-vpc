@@ -10,18 +10,18 @@ variable "cidr_block" {
 
 variable "enable_dns_hostnames" {
   description = "A boolean flag to enable/disable DNS hostnames in the VPC. Defaults false."
-  type = bool
-  default = false
+  type        = bool
+  default     = false
 
 }
 
 variable "enable_dns_support" {
   description = "A boolean flag to enable/disable DNS support in the VPC. Defaults to true."
-  type = bool
-  default = true
+  type        = bool
+  default     = true
 }
 
 variable "tags" {
   description = "A map of tags to assign to the resource."
-  type = map(string)
+  type        = map(string)
 }
